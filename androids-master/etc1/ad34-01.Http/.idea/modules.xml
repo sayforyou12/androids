@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ad34-01.Http.iml" filepath="$PROJECT_DIR$/ad34-01.Http.iml" />
+      <module fileurl="file://$PROJECT_DIR$/currentversion/currentversion.iml" filepath="$PROJECT_DIR$/currentversion/currentversion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/insertperson/insertperson.iml" filepath="$PROJECT_DIR$/insertperson/insertperson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/login/login.iml" filepath="$PROJECT_DIR$/login/login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mylibrary/mylibrary.iml" filepath="$PROJECT_DIR$/mylibrary/mylibrary.iml" />
+    </modules>
+  </component>
+</project>

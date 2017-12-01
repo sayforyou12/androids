@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Movie Spinner</string>
+    <string-array name="movielist">
+        <item>써니</item><item>완득이</item><item>괴물</item>
+        <item>라디오 스타</item><item>비열한 거리</item><item>왕의 남자</item>
+        <item>아일랜드</item><item>헬보이</item>
+    </string-array>
+</resources>

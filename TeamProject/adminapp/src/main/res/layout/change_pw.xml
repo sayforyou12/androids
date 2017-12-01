@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    
+    <TextView
+        android:background="@color/colorMINT"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="새로운 비밀번호를 입력해 주세요."/>
+    
+    <EditText
+        android:hint="  비밀번호 입력(8~16자리)"
+        android:layout_margin="20dp"
+        android:background="@drawable/boarder"
+        android:textSize="15dp"
+        android:gravity="center_vertical"
+        android:id="@+id/edt_changepw_first"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:password="true"/>
+    
+    <EditText
+        android:hint="  비밀번호 재입력"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/edt_changepw_second"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/boarder"
+        android:gravity="center_vertical"
+        android:password="true"
+        android:textSize="15dp"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    
+    
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   - 비밀번호는 8~16 자의 영문 대소문자, 숫자, 특수문자를 \n     조합하여 설정해 주세요. \n\n   - 다른 사이트에서 사용하는 것과 동일하거나 쉬운 비밀번호는 \n     사용하지 마세요. \n\n    - 안전한 계정 사용을 위해 비밀번호는 주기적으로 변경해 \n      요."/>
+    
+    
+        <Button
+            android:background="@color/colorMINT"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center"
+            android:id="@+id/btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="확인"/>
+        
+        
+    </LinearLayout>
+
+</LinearLayout>

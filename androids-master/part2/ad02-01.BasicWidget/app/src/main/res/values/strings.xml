@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BasicWidget</string>
+    <string name="btn1_text">라디오 버튼</string>
+    <string name="btn2_text">Widht 버튼</string>
+    <string name="btn3_text">Height버튼</string>
+    <string name="btn4_text">Color버튼</string>
+    <string name="btn5_text">Margin버튼</string>
+    <string name="btn6_text">Padding버튼</string>
+    <string name="btn7_text">Visible버튼</string>
+</resources>

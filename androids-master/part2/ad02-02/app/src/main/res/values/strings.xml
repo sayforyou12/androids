@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ad02-02</string>
+    <string name="textView_text">여기는 텍스트뷰 입니다.</string>
+</resources>

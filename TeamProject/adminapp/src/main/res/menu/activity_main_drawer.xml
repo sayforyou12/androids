@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <group >
+        <item
+            android:id="@+id/menulogin"
+            android:title="로그인"
+            android:clickable="true"
+            />
+        <item
+            android:id="@+id/like_count"
+            android:title="즐겨찾기 목록"
+            android:clickable="true"
+            />
+        <item
+            android:id="@+id/nav_camera"
+            android:title="공지사항"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="이벤트"/>
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="게시판"/>
+        <item
+            android:id="@+id/userinfo"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="개인정보 수정"/>
+    
+        <item
+            android:id="@+id/menulogout"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="로그아웃"/>
+        
+    </group>
+    
+
+</menu>

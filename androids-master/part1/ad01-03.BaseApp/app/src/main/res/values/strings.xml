@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BaseApp</string>
+    <string name="btn1">네이트 홈페이지 열기</string>
+    <string name="btn2">911 응급전화 걸기</string>
+    <string name="btn3">갤러리 열기</string>
+    <string name="btn4">끝내기</string>
+</resources>

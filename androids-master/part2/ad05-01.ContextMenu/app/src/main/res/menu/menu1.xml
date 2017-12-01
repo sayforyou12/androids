@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    >
+    <item android:title="배경색(레드)"
+        android:id="@+id/itempRed"/>
+    <item android:title="배경색(파랑)"
+        android:id="@+id/itempBlue"/>
+    <item android:title="배경색(초록)"
+        android:id="@+id/itempGreen"/>
+
+</menu>

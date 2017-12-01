@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            tools:context="com.android.fileio.MainActivity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:rowCount="8"
+            android:columnCount="2">
+    <EditText android:id="@+id/editText"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_column="0"
+              android:layout_row="0"
+              android:layout_columnSpan="2"
+              android:hint="파일에 쓰고자 하는 값을 입력하세요">
+    </EditText>
+    
+    
+    <Button
+        android:id="@+id/btnEmbeddedMemoryWrite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:layout_gravity="fill"
+        android:onClick="clicked"
+        android:text="♦내장 메모리 파일 쓰기"/>
+    
+    <Button
+        android:id="@+id/btnEmbeddedMemoryRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:layout_gravity="fill"
+        android:onClick="clicked"
+        android:text="♦내장 메모리 파일 읽기"/>
+    
+    <Button
+        android:id="@+id/btnRawFolderWrite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clicked"
+        android:text="raw 폴더 파일 쓰기"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_gravity="fill" />
+    
+    <Button
+        android:id="@+id/btnRawFolderRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clicked"
+        android:text="raw 폴더 파일 읽기"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_gravity="fill" />
+    
+    
+    <Button
+        android:id="@+id/btnCacheFileWrite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clicked"
+        android:text="cache 파일 쓰기"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill" />
+    
+    <Button
+        android:id="@+id/btnSDCardWrite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_gravity="fill"
+        android:onClick="clicked"
+        android:text="♦SD카드 파일 쓰기"/>
+    
+    <Button
+        android:id="@+id/btnSDCardRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:layout_gravity="fill"
+        android:onClick="clicked"
+        android:text="♦SD카드 파일 읽기"/>
+    
+    <Button
+        android:id="@+id/btnSDCardFolderMake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:layout_gravity="fill"
+        android:onClick="clicked"
+        android:text="♦SD카드 폴더 생성"/>
+    
+    <Button
+        android:id="@+id/btnSDCardFolderDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="1"
+        android:layout_gravity="fill"
+        android:onClick="clicked"
+        android:text="♦SD카드 폴더 삭제"/>
+    
+    <Button
+        android:id="@+id/btnSDCardFileList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clicked"
+        android:text="♦SD카드 파일 목록 출력"
+        android:layout_row="6"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill" />
+    
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:minLines="6"
+        android:maxLines="10"
+        android:text="Name"
+        android:layout_row="7"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill" />
+
+</GridLayout>

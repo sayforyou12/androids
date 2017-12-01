@@ -1,0 +1,1 @@
+include ':currentversion', ':mylibrary', ':login', ':insertperson'

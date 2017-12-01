@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.cafe.adminapp"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <uses-sdk android:minSdkVersion="3"/>
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+    
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity">
+        </activity>
+        <activity android:name=".SignUpActivity">
+        </activity>
+        <activity android:name=".IDPW_Search">
+        </activity>
+        <activity android:name=".userinfo.ChangePw">
+        </activity>
+        <activity android:name=".userinfo.ChangeUserInfo">
+        </activity>
+        <activity android:name=".userinfo.ConfirmUser">
+        </activity>
+        <activity android:name=".userinfo.DeleteUser">
+        </activity>
+        <activity android:name=".userinfo.Userinfo">
+        </activity>
+        <activity
+            android:name=".cafelist.FragmentListActivity"
+            android:label="@string/title_activity_list2"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".NameSearchList">
+        </activity>
+        <activity android:name=".AddrSearchList">
+        </activity>
+        <activity
+            android:name=".cafeinfo.FragmentInfoActivity"
+            android:label="@string/title_activity_info"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".cafeinfo.Cafeinfo_Review">
+        </activity>
+        <activity android:name=".cafeinfo.Cafeinfo_Review_Update">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cafe.adminapp.cafeinfo.Cafeinfo_Review_Update">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="별점"
+            android:textSize="17dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:layout_margin="5dp"/>
+        
+        <RatingBar
+            android:id="@+id/rb_upgrade"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:layout_margin="5dp"
+            android:numStars="5"
+            android:secondaryProgressTint="@color/colorMINT"
+            android:progressTint="@color/colorMINT"
+            android:stepSize="0.5"
+            android:rating="4"/>
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="닉네임"
+            android:textColor="@android:color/black"
+            android:textSize="17dp"
+            android:layout_margin="5dp"/>
+        
+        <TextView
+            android:id="@+id/tv_review_upnickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="루이"
+            android:textSize="17dp"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        
+        <EditText
+            android:id="@+id/edit_upreview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="솔직한 의견도 좋지만 무조건적인 비방 글은 삼가 주세요^^"
+            android:inputType="textMultiLine"
+            android:lines="8"
+            android:maxLines="10"
+            android:minLines="6"
+            android:scrollbars="vertical"
+            android:text=""/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        >
+        
+        <Button
+            android:id="@+id/btn_upreview_finsh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="40dp"
+            android:background="@color/colorMINT"
+            android:gravity="center"
+            android:text="수정"
+            android:textSize="17dp"/>
+    </LinearLayout>
+
+</LinearLayout>

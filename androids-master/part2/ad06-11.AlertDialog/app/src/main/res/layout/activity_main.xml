@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.android.alertdialog.MainActivity">
+
+    <Button
+        android:id="@+id/Alterbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alter Dialog" />
+
+    <Button
+        android:id="@+id/Confirmbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Dialog" />
+
+    <Button
+        android:id="@+id/Listbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List Dialog" />
+
+    <Button
+        android:id="@+id/Radiobtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Radio Dialog" />
+
+    <Button
+        android:id="@+id/Checkbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Dialog" />
+
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PagingListView.iml" filepath="$PROJECT_DIR$/PagingListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ad23-05.InfinitListView.iml" filepath="$PROJECT_DIR$/ad23-05.InfinitListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ad34-03.PagingListView.iml" filepath="$PROJECT_DIR$/ad34-03.PagingListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mylibrary/mylibrary.iml" filepath="$PROJECT_DIR$/mylibrary/mylibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paginglistview/paginglistview.iml" filepath="$PROJECT_DIR$/paginglistview/paginglistview.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    
+    <TextView
+        android:background="@color/colorMINT"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="회원님의 소중한 정보 보호를 위해 현재              비밀번호를 확인해 주세요"/>
+    
+    <EditText
+        android:layout_margin="20dp"
+        android:background="@drawable/boarder"
+        android:textSize="15dp"
+        android:gravity="center_vertical"
+        android:id="@+id/edt_confirm_user_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+    
+    <EditText
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/edt_confirm_user_pw"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/boarder"
+        android:gravity="center_vertical"
+        android:password="true"
+        android:textSize="15dp"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    
+        <Button
+            android:background="@color/colorMINT"
+            android:layout_marginTop="150dp"
+            android:layout_gravity="center"
+            android:id="@+id/btn_confirm_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="확인"/>
+    
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="비밀번호가 떠오르지 않니?"/>
+    </LinearLayout>
+
+
+</LinearLayout>

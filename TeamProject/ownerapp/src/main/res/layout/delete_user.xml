@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    
+    <TextView
+        android:background="@color/colorMint"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="계정 탈퇴 안내"/>
+  
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <TextView
+            android:textSize="15dp"
+            android:layout_marginTop="50dp"
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   - 내 프로필 정보(이름,상태,아이디,프로필사진, 배경사진) \n\n   - 즐겨찾기  목록 전체 \n\n   - 그 외 사용자가 설정한 모든 정보 \n\n   - 탈퇴시 복구가 불가능 하니 신중하게 선택하세요."/>
+    
+        <CheckBox
+            android:buttonTint="@color/colorRed"
+            android:textColor="@color/colorRed"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="170dp"
+            android:id="@+id/ck_del_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="모든 내용을 이해하였으며, 탈퇴에 동의함"/>
+        
+        <Button
+            android:background="@color/colorMint"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/btn_delete_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="확인"/>
+    
+    
+    </LinearLayout>
+    
+    
+</LinearLayout>

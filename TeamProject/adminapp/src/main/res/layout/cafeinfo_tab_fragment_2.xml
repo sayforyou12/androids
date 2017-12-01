@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cafe.adminapp.cafeinfo.Cafeinfo_tabFragment2"
+    tools:showIn="@layout/cafeinfo_fragment">
+    
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+        
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            
+            <ImageView
+                android:id="@+id/imgview"
+                app:srcCompat="@drawable/all_cafe"
+                android:layout_width="150dp"
+                android:layout_height="150dp"/>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            <View
+                android:layout_width="400dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="#CCCCCC"/>
+        </LinearLayout>
+        
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:text="업소통계"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"/>
+                
+                
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:text="즐찾갯수"
+                    android:id="@+id/tv_bookmark_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="15dp"
+                    />
+                
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:text="카페 안내"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"/>
+                
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="1dp"
+                    android:text="EDIYA"
+                    android:id="@+id/tv_cafe_brand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="1dp"
+                    android:text="배달 가능시간 : 불가능"
+                    android:id="@+id/tv_cafe_delivery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="1dp"
+                    android:text="영업 시간 : 3~5시"
+                    android:id="@+id/tv_cafe_opentime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="매장 전화번호 : 010-3231-1231"
+                    android:id="@+id/tv_cafe_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:text="위치 정보"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"/>
+                
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="매장 주소 : 하계동2번출구"
+                    android:id="@+id/tv_cafe_addr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:text="사업자 정보"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"/>
+                
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="1dp"
+                    android:text="이디야 하계점"
+                    android:id="@+id/tv_cafe_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    />
+                
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:text="사업자 번호 : 010-12312-3213"
+                    android:id="@+id/tv_cafe_businessnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            
+            </LinearLayout>
+        
+        </ScrollView>
+    
+    
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
